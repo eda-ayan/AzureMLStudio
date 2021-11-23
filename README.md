@@ -26,6 +26,7 @@ Azure ML Workspace is the top-level resource for Azure Machine Learning. It is u
 
   <img src="https://user-images.githubusercontent.com/25666677/143066944-3c8e0fdc-1882-492b-9863-bf1960bfe586.png" width=70% height=70% /> 
 
+![image](https://user-images.githubusercontent.com/25666677/143067282-1d835ded-2549-4221-9114-da5ece32b1c9.png)
 
 
 When you are running your code in Azure Notebooks or another Microsoft managed environment, the SDK is already installed.
