@@ -18,6 +18,15 @@ Azure ML Workspace is the top-level resource for Azure Machine Learning. It is u
 When you are running your code in Azure Notebooks or another Microsoft managed environment, the SDK is already installed.
 Else: you should follow the steps in the [link](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-environment) to congfigure your environment.
 
-## What's the difference between workspace and an environment?
+## What are Azure Machine Learning environments?
 
-In order to create an environment you must have a workspace, in other words, you create your environment inside a workspace.
+Azure Machine Learning environments specify the Python packages, environment variables, and software settings around your training and scoring scripts. They are entities that exist in the workspace, they can be managed and versioned. 
+
+Environments enable creating reproducible, auditable, and portable machine learning workflows across a variety of compute targets.
+
+You can use an Environment object on your local compute to:
+
+- Develop your training script.
+- Reuse the same environment on Azure Machine Learning Compute for model training at scale.
+- Deploy your model with that same environment.
+- Revisit the environment in which an existing model was traine
