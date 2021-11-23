@@ -13,6 +13,7 @@ Azure ML Workspace is the top-level resource for Azure Machine Learning. It is u
 1. Sign in to the Azure portal by using the credentials for your Azure subscription.
 
 2. In the upper-left corner of Azure portal, select + Create a resource.
+
 ![image](https://user-images.githubusercontent.com/25666677/143066661-2454caf7-e520-458d-9ef5-c076f84e7c20.png)
 
 3. Use the search bar to find Machine Learning.
