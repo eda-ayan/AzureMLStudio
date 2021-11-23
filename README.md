@@ -8,6 +8,23 @@ Azure ML Workspace is the top-level resource for Azure Machine Learning. It is u
 
 ![image](https://user-images.githubusercontent.com/25666677/143065957-41ae0c1f-abf9-46da-99d8-7a86702461cc.png)
 
+### Creating a workspace using Azure Portal
+
+1. Sign in to the Azure portal by using the credentials for your Azure subscription.
+
+2. In the upper-left corner of Azure portal, select + Create a resource.
+![image](https://user-images.githubusercontent.com/25666677/143066661-2454caf7-e520-458d-9ef5-c076f84e7c20.png)
+
+3. Use the search bar to find Machine Learning.
+
+4. Select Machine Learning.
+
+5. In the Machine Learning pane, select Create to begin.
+
+6. Provide the following information to configure your new workspace:
+
+![image](https://user-images.githubusercontent.com/25666677/143066944-3c8e0fdc-1882-492b-9863-bf1960bfe586.png)
+
 
 When you are running your code in Azure Notebooks or another Microsoft managed environment, the SDK is already installed.
 Else: you should follow the steps in the [link](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-environment) to congfigure your environment.
