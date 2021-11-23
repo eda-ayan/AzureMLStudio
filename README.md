@@ -28,6 +28,12 @@ Azure ML Workspace is the top-level resource for Azure Machine Learning. It is u
 
 ![image](https://user-images.githubusercontent.com/25666677/143067282-1d835ded-2549-4221-9114-da5ece32b1c9.png)
 
+7. When you're finished configuring the workspace, select Review + Create. Optionally, use the Networking and Advanced sections to configure more settings for the workspace.
+
+8. Review the settings and make any other changes or corrections. When you're satisfied with the settings, select Create. When the process is finished, a deployment success message appears.
+
+9. To view the new workspace, select Go to resource.
+
 
 When you are running your code in Azure Notebooks or another Microsoft managed environment, the SDK is already installed.
 Else: you should follow the steps in the [link](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-environment) to congfigure your environment.
