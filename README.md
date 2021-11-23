@@ -30,3 +30,10 @@ You can use an Environment object on your local compute to:
 - Reuse the same environment on Azure Machine Learning Compute for model training at scale.
 - Deploy your model with that same environment.
 - Revisit the environment in which an existing model was traine
+
+
+To run an application, you need: code, runtime, system tools, system libraries and settings.  A container packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.
+
+Docker terms: 
+- Images: Just a snapshot of your container.
+- Dockerfile: That’s a yaml file that is used to build up your image. At the end you of this session you will have a yaml-file template and use it for with your own container specifications.
