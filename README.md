@@ -34,6 +34,8 @@ Azure ML Workspace is the top-level resource for Azure Machine Learning. It is u
 
 9. To view the new workspace, select Go to resource.
 
+Or, [create a workspace using Python](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace?tabs=python#create-a-workspace)
+
 
 When you are running your code in Azure Notebooks or another Microsoft managed environment, the SDK is already installed.
 Else: you should follow the steps in the [link](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-environment) to congfigure your environment.
