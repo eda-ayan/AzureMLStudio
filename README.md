@@ -2,4 +2,4 @@
 
 Welcome to my Azure Machine Learning Python SDK notebooks repository!
 
-## Getting Started
+## What is an Azure Machine Learning workspace
