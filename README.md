@@ -8,9 +8,11 @@ Azure ML Workspace is the top-level resource for Azure Machine Learning. It is u
 
 ![image](https://user-images.githubusercontent.com/25666677/143065957-41ae0c1f-abf9-46da-99d8-7a86702461cc.png)
 
-### Creating a workspace using Azure Portal
+### Create a workspace
 
-See the [link](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace?tabs=python#create-a-workspace) to create a workspace using Azure portal or Python.
+1. Use the [Azure Machine Learning SDK for Python](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace?tabs=python#create-a-workspace) to create a workspace on the fly from Python scripts or Jupyter notebooks
+
+2. Use the [Azure portal](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace?tabs=azure-portal#create-a-workspace) for a point-and-click interface to walk you through each step.
 
 
 When you are running your code in Azure Notebooks or another Microsoft managed environment, the SDK is already installed.
