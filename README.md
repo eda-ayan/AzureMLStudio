@@ -70,10 +70,17 @@ Environment(name="myenv")
 
 ```
 
-Docker terms: 
-- Images: Just a snapshot of your container.
-- Dockerfile: That’s a yaml file that is used to build up your image. At the end you of this session you will have a yaml-file template and use it for with your own container specifications.
+You can choose any one of the cureted environments in Azure ML Studio. To see the curated environments, run the following code.
 
+```python
 
+envs = Environment.list(workspace=ws)
+
+for env in envs:
+    if env.startswith("AzureML"):
+        print("Name",env)
+        print("packages", envs[env].python.conda_dependencies.serialize_to_string())
+
+```
 
 More information on [creating environments](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-use-environments)
