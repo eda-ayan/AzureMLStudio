@@ -36,7 +36,32 @@ To run an application, you need: code, runtime, system tools, system libraries a
 
 Azure Machine Learning builds environment definitions into Docker images and conda environments. 
 
+You can create an environment [using Azure Machine Learning studio](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-environments-in-studio) or [using Python scripts](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-use-environments)
+
+## Create an environment using Azure machine learning studio
+
+To create an environment:
+
+1. Open your workspace in Azure Machine Learning studio.
+2. On the left side, select Environments.
+3. Select the Custom environments tab.
+4. Select the Create button.
+
+![image](https://user-images.githubusercontent.com/25666677/143198540-816b57be-3043-4665-b21f-c28bae568c12.png)
+
+You can use both Conda and Docker layers while creating an environment.
+
+Once the environment is created, you can view and edit the environment details by clicking on the name.
+
+![image](https://user-images.githubusercontent.com/25666677/143198694-9de940af-2380-49fc-bc9b-2eb3c4579777.png)
+
+Use the dropdown menu to select different versions of the environment. Here you can view metadata and the contents of the environment through its Docker and Conda layers.
+Keep in mind that any changes to the Docker or Conda sections will create a new version of the environment.
+
 Docker terms: 
 - Images: Just a snapshot of your container.
 - Dockerfile: That’s a yaml file that is used to build up your image. At the end you of this session you will have a yaml-file template and use it for with your own container specifications.
 
+
+
+More information on [creating environments](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-use-environments)
