@@ -48,13 +48,13 @@ To create an environment:
 4. Select the Create button.
 
 
-<img src="https://user-images.githubusercontent.com/25666677/143198540-816b57be-3043-4665-b21f-c28bae568c12.png" width=60% height=60%>
+<img src="https://user-images.githubusercontent.com/25666677/143198540-816b57be-3043-4665-b21f-c28bae568c12.png" width=75% height=75%>
 
 You can use both Conda and Docker layers while creating an environment.
 
 Once the environment is created, you can view and edit the environment details by clicking on the name.
 
-<img src="https://user-images.githubusercontent.com/25666677/143198694-9de940af-2380-49fc-bc9b-2eb3c4579777.png" width=60% height=60%>
+<img src="https://user-images.githubusercontent.com/25666677/143198694-9de940af-2380-49fc-bc9b-2eb3c4579777.png" width=75% height=75%>
 
 Use the dropdown menu to select different versions of the environment. Here you can view metadata and the contents of the environment through its Docker and Conda layers.
 Keep in mind that any changes to the Docker or Conda sections will create a new version of the environment.
