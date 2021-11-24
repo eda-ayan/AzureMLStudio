@@ -69,7 +69,7 @@ from azureml.core.environment import Environment
 Environment(name="myenv")
 
 ```
-
+### Use a curated environment
 You can choose any one of the cureted environments in Azure ML Studio. To see the curated environments, run the following code.
 
 ```python
@@ -84,13 +84,33 @@ for env in envs:
 ```
 If you decide to use a curated environment you can easily use it with ```Environment.get()``` method.
 
-
 ```python
 
 from azureml.core import Workspace, Environment
 
 ws = Workspace.from_config()
 env = Environment.get(workspace=ws, name="AzureML-sklearn-0.24-ubuntu18.04-py37-cpu")
+
+```
+To customize a curated environment, clone and rename the environment.
+
+```python
+env = Environment.get(workspace=ws, name="AzureML-sklearn-0.24-ubuntu18.04-py37-cpu")
+curated_clone = env.clone("customize_curated")
+
+```
+### Use Conda dependencies or pip requirements files
+
+You can create an environment from a Conda specification or a pip requirements file. Use the from_conda_specification() method or the from_pip_requirements() method. In the method argument, include your environment name and the file path of the file that you want.
+
+```python
+# From a Conda specification file
+myenv = Environment.from_conda_specification(name = "myenv",
+                                             file_path = "path-to-conda-specification-file")
+
+# From a pip requirements file
+myenv = Environment.from_pip_requirements(name = "myenv",
+                                          file_path = "path-to-pip-requirements-file")
 
 ```
 More information on [creating environments](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-use-environments)
