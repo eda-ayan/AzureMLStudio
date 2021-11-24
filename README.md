@@ -38,7 +38,7 @@ Azure Machine Learning builds environment definitions into Docker images and con
 
 You can create an environment [using Azure Machine Learning studio](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-environments-in-studio) or [using Python scripts](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-use-environments)
 
-## Create an environment using Azure machine learning studio
+## Create an environment using Azure Machine Learning Studio
 
 To create an environment:
 
@@ -57,6 +57,17 @@ Once the environment is created, you can view and edit the environment details b
 
 Use the dropdown menu to select different versions of the environment. Here you can view metadata and the contents of the environment through its Docker and Conda layers.
 Keep in mind that any changes to the Docker or Conda sections will create a new version of the environment.
+
+## Create an environment using Python script
+
+### Instantiate an environment object
+
+```python
+
+from azureml.core.environment import Environment
+Environment(name="myenv")
+
+```
 
 Docker terms: 
 - Images: Just a snapshot of your container.
