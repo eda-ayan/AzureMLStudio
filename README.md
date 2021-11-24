@@ -82,5 +82,15 @@ for env in envs:
         print("packages", envs[env].python.conda_dependencies.serialize_to_string())
 
 ```
+If you decide to use a curated environment you can easily use it with ```Environment.get()``` method.
 
+
+```python
+
+from azureml.core import Workspace, Environment
+
+ws = Workspace.from_config()
+env = Environment.get(workspace=ws, name="AzureML-sklearn-0.24-ubuntu18.04-py37-cpu")
+
+```
 More information on [creating environments](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-use-environments)
