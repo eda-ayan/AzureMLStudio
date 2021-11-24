@@ -1,4 +1,4 @@
-# Azure Machine Learning Python SDK notebooks
+# Azure Machine Learning Python SDK notebooks - Managing Workspaces & Environments
 
 Welcome to my Azure Machine Learning Python SDK notebooks repository!
 
